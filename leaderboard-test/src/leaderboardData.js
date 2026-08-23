@@ -1,12 +1,73 @@
-export const round0Data = Array.from({ length: 40 }, (_, i) => ({
-    teamName: `Team ${String.fromCharCode(65 + (i % 26))}${i}`,
-    score: 3000 - i * 15
-}));
+export const round0Data = [
+    { teamName: "Byte Me", score: 2980 },
+    { teamName: "Segfault Squad", score: 2965 },
+    { teamName: "Null Pointers", score: 2940 },
+    { teamName: "404 Not Found", score: 2910 },
+    { teamName: "Recursion Rebels", score: 2880 },
+    { teamName: "Stack Overflowers", score: 2850 },
+    { teamName: "Kernel Panic", score: 2820 },
+    { teamName: "Git Gud", score: 2790 },
+    { teamName: "Infinite Loopers", score: 2760 },
+    { teamName: "Merge Conflict", score: 2730 },
+    { teamName: "Compile Time Error", score: 2700 },
+    { teamName: "The Backtrackers", score: 2670 },
+    { teamName: "Race Condition", score: 2640 },
+    { teamName: "Off By One", score: 2610 },
+    { teamName: "Buffer Overflow", score: 2580 },
+    { teamName: "Deadlock Divas", score: 2550 },
+    { teamName: "Heap Corruption", score: 2520 },
+    { teamName: "Semaphore Squad", score: 2490 },
+    { teamName: "Mutex Masters", score: 2460 },
+    { teamName: "Thread Safe", score: 2430 },
+    { teamName: "Async Await", score: 2400 },
+    { teamName: "Promise Chain", score: 2370 },
+    { teamName: "Callback Hell", score: 2340 },
+    { teamName: "Big O Notation", score: 2310 },
+    { teamName: "Time Complexity", score: 2280 },
+    { teamName: "Space Invaders", score: 2250 },
+    { teamName: "Binary Search Party", score: 2220 },
+    { teamName: "Hash Collision", score: 2190 },
+    { teamName: "Linked Listeners", score: 2160 },
+    { teamName: "Tree Traversal", score: 2130 },
+    { teamName: "Graph Theory Gang", score: 2100 },
+    { teamName: "Dynamic Programmers", score: 2070 },
+    { teamName: "Greedy Algorithm", score: 2040 },
+    { teamName: "Divide N Conquer", score: 2010 },
+    { teamName: "Sorting Hat", score: 1980 },
+    { teamName: "Queue Jumpers", score: 1950 },
+    { teamName: "Array Out of Bounds", score: 1920 },
+    { teamName: "Pointer Exception", score: 1890 },
+    { teamName: "Memory Leak", score: 1860 },
+    { teamName: "Garbage Collectors", score: 1830 }
+];
 
-export const round1Data = Array.from({ length: 25 }, (_, i) => ({
-    teamName: `Team ${String.fromCharCode(65 + (i % 26))}${i}`,
-    score: 2800 - i * 20
-}));
+export const round1Data = [
+    { teamName: "Byte Me", score: 2790 },
+    { teamName: "Segfault Squad", score: 2760 },
+    { teamName: "Null Pointers", score: 2730 },
+    { teamName: "404 Not Found", score: 2700 },
+    { teamName: "Recursion Rebels", score: 2670 },
+    { teamName: "Stack Overflowers", score: 2640 },
+    { teamName: "Kernel Panic", score: 2610 },
+    { teamName: "Git Gud", score: 2580 },
+    { teamName: "Infinite Loopers", score: 2550 },
+    { teamName: "Merge Conflict", score: 2520 },
+    { teamName: "Compile Time Error", score: 2490 },
+    { teamName: "The Backtrackers", score: 2460 },
+    { teamName: "Race Condition", score: 2430 },
+    { teamName: "Off By One", score: 2400 },
+    { teamName: "Buffer Overflow", score: 2370 },
+    { teamName: "Deadlock Divas", score: 2340 },
+    { teamName: "Heap Corruption", score: 2310 },
+    { teamName: "Semaphore Squad", score: 2280 },
+    { teamName: "Mutex Masters", score: 2250 },
+    { teamName: "Thread Safe", score: 2220 },
+    { teamName: "Async Await", score: 2190 },
+    { teamName: "Promise Chain", score: 2160 },
+    { teamName: "Callback Hell", score: 2130 },
+    { teamName: "Big O Notation", score: 2100 },
+    { teamName: "Time Complexity", score: 2070 }
+];
 
 export const phase1Data = [
     { teamName: "Team X", score: 2450 },
@@ -38,11 +99,11 @@ export const overallData = [
     { teamName: "Team X", score: 4920 },
     { teamName: "Team B", score: 4705 },
     { teamName: "Team Y", score: 4700 },
-    { teamName: "Team A", score: 4430 },
     { teamName: "Team D", score: 4440 },
+    { teamName: "Team A", score: 4430 },
     { teamName: "Team C", score: 4360 },
     { teamName: "Team Z", score: 4360 },
     { teamName: "Team F", score: 4050 },
     { teamName: "Team E", score: 3960 },
     { teamName: "Team G", score: 3780 }
-].sort((a, b) => b.score - a.score);
+];
